@@ -1,0 +1,6 @@
+:root { --ink: #24372d; --green: #2c6e50; --dark: #174b38; --mint: #e8f3df; --cream: #f7f7ee; --line: #d6e1d1; --orange: #d77939; --white: #fff; }
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
