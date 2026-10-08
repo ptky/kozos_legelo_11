@@ -1,0 +1,72 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#felso_navigacio ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+#felso_section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#allomas {
+    flex: 0 1 700px;
+}
+
+#also_navigacio ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 35px;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#nagy_section {
+    flex: 0 0 75%;
+}
+
+#kis_section {
+    flex: 0 0 25%;
+}
+
+
+
+#article_szovegek p {
+    flex: 0 0 100%;
+    
+}
+
+
+
+#kepek {
+    flex: 0 0 100%;
+}
+
+
+
+#section_doboz_tarolo {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
