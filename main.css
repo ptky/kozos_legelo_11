@@ -27,7 +27,8 @@ li {
 .section_doboz {
     border: solid 1px var(--green);
     background-color: var(--mint);  
-    padding: 5px;
+    padding: 20px;
+    border-radius: 10px;
 }
 .section_doboz h1 {
     color: var(--dark);
@@ -63,4 +64,65 @@ li {
     background-color: #174b38;
     border-radius: 20px;
     color: white;
+    padding: 50px;
+}
+
+.zoldszoveg {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--mint);
+}
+
+#szoveg_headerben {
+    border: 1px solid var(--mint);
+    border-radius: 15%;
+    padding: 20px;
+    background-color: var(--green);
+}
+#szoveg_headerben h1 {
+    font-weight: bold;
+    color: var(--line);
+    
+
+}
+
+.sima_also {
+    background-color: var(--cream);
+    
+}
+
+#also_navigacio li {
+    width: 20vw;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.active_also {
+    background-color: rgb(158, 245, 197);
+}
+
+#kis_section {
+     border: 1px solid var(--mint);
+     padding: 10px;
+     border-radius: 15px;
+     background-color: rgb(220, 253, 215);
+}
+
+.kis_section_doboz {
+    border-radius: 15px;
+    border-left: 3px solid var(--green);
+    background-color: var(--cream);
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.kis_section_doboz h1 {
+    font-weight: bold;
+}
+
+#gondold_vegig {
+    padding: 15px;
+    border-left: rgb(145, 2, 2) 3px solid;
+    background-color: rgb(248, 220, 168);
 }
