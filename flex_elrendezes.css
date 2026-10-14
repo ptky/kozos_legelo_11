@@ -1,6 +1,7 @@
 header {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
 
 }
@@ -19,7 +20,7 @@ header {
 }
 
 #allomas {
-    flex: 0 1 700px;
+    flex: 0 1 50%;
 }
 
 #also_navigacio ul {
@@ -41,6 +42,7 @@ article {
 
 #kis_section {
     flex: 0 0 25%;
+    align-self: flex-start;
 }
 
 
@@ -70,3 +72,88 @@ article {
     gap: 5px;
 }
 
+#kepek {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 200px;
+    align-items: center;
+
+}
+
+#article_szovegek {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 0 0 100%;
+    align-items: center;
+}
+
+#article_szovegek p {
+    flex: 0 0 80%;
+}
+#mitortenikezutan {
+    flex: 0 0 20%;
+    font-weight: bold;
+    color: white;
+    background-color: var(--green);
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid var(--green);
+    text-align:center;
+    white-space: nowrap;
+    
+
+}
+
+footer p {
+    border-top: 1px solid var(--green);
+    padding: 20px;
+}
+
+@media screen and (max-width:950px) {
+    #nagy_section {
+        flex: 0 0 100%;
+    }
+    #kis_section {
+        flex: 0 0 100%;
+    }
+    #felso_navigacio {
+        flex: 0 0 100%;
+    }
+    
+    #felso_navigacio ul {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    #also_navigacio ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    #szoveg_headerben {
+        font-size: 2vw;
+    }
+    #logo {
+        flex: 0 0 100%;
+    }
+    #logo h1, #logo img {
+        font-size: 3vw;
+
+    }
+    #section_doboz_tarolo {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+    #article_szovegek {
+        flex-direction: column;
+
+    }
+    footer {
+        margin-top: 15vw;
+    }   
+
+}

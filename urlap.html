@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A közös legelő</title>
+    <meta
+      name="keywords"
+      content="oldal,brutal,gyilkos,megol,vege,soha,tobbet"
+    />
+    <meta
+      name="description"
+      content="gyilkos orai gyakorlo feladat, a vegzet kezdete, halal"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="flex_elrendezes.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div id="logo">
+        <p>✳</p>
+        <h1>A közös legelő</h1>
+    </div>
+        <nav id="felso_navigacio">
+          <ul>
+            <li ><a href="" >1. Kezdet</a></li>
+            <li><a href="index.html">2. Döntés</a></li>
+            <li><a href="">3. Következmény</a></li>
+            <li class="active"><a href="urlap.html" class="active">4. Mit tennél?</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="felso_section">
+        <div id="allomas">
+          <p class="zoldszoveg">4. állomás · véleményalkotás</p>
+          <h1 class="nagyobb">Mit tennél a gazdák helyében?</h1>
+          <p>
+            A döntéseknek egyszerre van egyéni és közös következményük. Az ürlapon nincs egyetlen kötelező "jó válasz": indokold meg az álláspontodat.
+          </p>
+        </div>
+        <div id="szoveg_headerben">
+          <h1>9 gazda 9 tehén</h1>
+          <p>Mindegyik gazdának egy tehene van.</p>
+        </div>
+      </section>
+      <nav id="also_navigacio">
+        <ul>
+          <li class="sima_also"><a href="">Kezdet</a></li>
+          <li class="sima_also"><a href="">Döntés</a></li>
+          <li class="sima_also"><a href="">Következmény</a></li>
+          <li class="active_also"><a href="">Reflexió</a></li>
+        </ul>
+      </nav>
+
+      <article>
+        <section id="nagy_section">
+            <form>
+            <h1>Rövid gondolatkisérlet</h1>
+            <p>Az űrlap a HTMl-elemek gyakorlására keszült. A válaszokat az oldal nem értékeli, és nem menti el.</p>
+            <fieldset>
+                <legend>1. Mi segíthetett volna megelőzni a legelő túlterhelését?</legend>
+                <div id="radio_valasztas">
+                    <div>
+                    <input type="radio" name="valasztas" id="allatok_szama">
+                    <label for="allatok_szama">A gazdák előre megállapodnak az állatok számáról.</label>
+                    </div>
+                    <div>
+                    <input type="radio" name="valasztas" id="legelo">
+                    <label for="legelo">Mindenki külön dönt, és később figyelik a legelőt.</label>
+                    </div>
+                    <div>                    
+                    <input type="radio" name="valasztas" id="mas_megoldas">
+                    <label for="mas_megoldas">Más megoldást javasolnék.</label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>2. Mit kellene mérlegelniük? Többet is jelölhetsz.</legend>
+                <div id="valasztos">
+                    <div>
+                    <input type="checkbox" name="fu_ujrano" id="fu_ujrano">
+                    <label for="fu_ujrano">Mennyi fű tud újranőni?</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" name="hatas" id="hatas">
+                    <label for="hatas">Hogy hat egy döntés a többi gazdára?</label>
+                    </div>
+                    <div>                    
+                    <input type="checkbox" name="tej" id="tej">
+                    <label for="tej">Mennyi tejhez jutnak később?</label>
+                    </div>
+
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>3.Indokold meg a javaslatodat 2-3 mondatban!</legend>
+                <div>
+                <textarea name="javaslat" id="javaslat" placeholder="Szerintem azért lenne érdemes..."></textarea>
+                </div>
+            </fieldset>
+            <p>A gomb csak újratölti ezt az oldalt. Nincs háttérrendszer vagy automatikus kiértékelés. A választ az órán beszéljétek meg.</p>
+            <input type="submit" value="Űrlap kipróbálása">
+        </form>
+        </section>
+        <section id="kis_section">
+          <h1>Beszélgetéshez</h1>
+          <ul>
+            <li>Miért tűnt jó döntésnek a második tehén</li>
+            <li>Mikor változott meg az egyéni és közös érdek viszonya?</li>
+            <li>Milyen szabályt tartanál igazságosnak?</li>
+          </ul>
+        </section>
+        <div id="article_szovegek">
+          <p>A számok a tankönyvi történet állapotait mutatják.</p>
+          <a href="#" id="mitortenikezutan">Történet újraolvasása -></a>
+
+        </div>
+      </article>
+      <footer>
+        <p>
+          A történet forrása: Zöld Föld, szakképzés 9–10., 12–13. oldal. Tanórai
+          feldolgozás, saját megfogalmazásban.
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>

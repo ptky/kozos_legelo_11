@@ -25,16 +25,16 @@ li {
 }
 
 .section_doboz {
-    border: solid 1px var(--green);
     background-color: var(--mint);  
-    padding: 20px;
+    width: 15vw;
     border-radius: 10px;
+    padding: 8px;
 }
 .section_doboz h1 {
     color: var(--dark);
 }
 #logo h1 {
-    font-size: small;
+    font-size: 1vw;
     font-weight: bold;
 }
 
@@ -75,17 +75,20 @@ li {
 
 #szoveg_headerben {
     border: 1px solid var(--mint);
-    border-radius: 15%;
-    padding: 20px;
+    border-radius: 15px;
+    padding: 2vw;
     background-color: var(--green);
+    font-size: 1vw;
 }
 #szoveg_headerben h1 {
     font-weight: bold;
-    color: var(--line);
+    color: rgb(190, 255, 190);
     
 
 }
-
+.nagyobb {
+    font-size: 3vw;
+}
 .sima_also {
     background-color: var(--cream);
     
@@ -99,7 +102,7 @@ li {
 }
 
 .active_also {
-    background-color: rgb(158, 245, 197);
+    background-color: rgb(151, 250, 147);
 }
 
 #kis_section {
@@ -125,4 +128,29 @@ li {
     padding: 15px;
     border-left: rgb(145, 2, 2) 3px solid;
     background-color: rgb(248, 220, 168);
+}
+
+#kepek {
+    border: 1px solid var(--mint);
+    background: linear-gradient(
+        to bottom,
+        rgb(240, 251, 255)50%,
+        rgb(177, 229, 175) 50%
+    );
+}
+
+
+
+#kepek img{
+    border-radius: 10px;
+    width: 5vw;
+}
+
+#kepszulo {
+    padding: 10px;
+}
+
+
+#kis_section li {
+    list-style: circle  ;
 }
